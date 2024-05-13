@@ -1,4 +1,4 @@
 Hi, thats my first open repository)
 
-Quiver - my first big project in which i'm really interested...
-It's gonna be a Tinder, but where i'm gonna be one male
+Quiver is my first big project that I'm really interested in..... 
+It will be a Tinder, but where I will be the only male.
