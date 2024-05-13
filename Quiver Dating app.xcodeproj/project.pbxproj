@@ -11,6 +11,9 @@
 		EDD6F5E92BEFB52E007A2B8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6F5E82BEFB52E007A2B8D /* ContentView.swift */; };
 		EDD6F5EB2BEFB52F007A2B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD6F5EA2BEFB52F007A2B8D /* Assets.xcassets */; };
 		EDD6F5EE2BEFB52F007A2B8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD6F5ED2BEFB52F007A2B8D /* Preview Assets.xcassets */; };
+		EDD6F6012BF27A73007A2B8D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6F6002BF27A73007A2B8D /* MainTabView.swift */; };
+		EDD6F6032BF27E96007A2B8D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6F6022BF27E96007A2B8D /* CardView.swift */; };
+		EDD6F6052BF287A2007A2B8D /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6F6042BF287A2007A2B8D /* UserInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		EDD6F5E82BEFB52E007A2B8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDD6F5EA2BEFB52F007A2B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDD6F5ED2BEFB52F007A2B8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDD6F6002BF27A73007A2B8D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		EDD6F6022BF27E96007A2B8D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EDD6F6042BF287A2007A2B8D /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +57,11 @@
 		EDD6F5E52BEFB52D007A2B8D /* Quiver Dating app */ = {
 			isa = PBXGroup;
 			children = (
-				EDD6F5E62BEFB52D007A2B8D /* Quiver_Dating_appApp.swift */,
+				EDD6F5FA2BF27817007A2B8D /* App */,
+				EDD6F5F82BF277F9007A2B8D /* Core */,
+				EDD6F5F72BF277F5007A2B8D /* Extantions */,
+				EDD6F5F62BF277EE007A2B8D /* Shared */,
+				EDD6F5F42BF277E2007A2B8D /* Utils */,
 				EDD6F5E82BEFB52E007A2B8D /* ContentView.swift */,
 				EDD6F5EA2BEFB52F007A2B8D /* Assets.xcassets */,
 				EDD6F5EC2BEFB52F007A2B8D /* Preview Content */,
@@ -65,6 +75,85 @@
 				EDD6F5ED2BEFB52F007A2B8D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDD6F5F42BF277E2007A2B8D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EDD6F5F62BF277EE007A2B8D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EDD6F5F72BF277F5007A2B8D /* Extantions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extantions;
+			sourceTree = "<group>";
+		};
+		EDD6F5F82BF277F9007A2B8D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6F5FC2BF279B5007A2B8D /* Cards */,
+				EDD6F5FF2BF27A02007A2B8D /* Messaging */,
+				EDD6F5FE2BF279E3007A2B8D /* Searching */,
+				EDD6F5FD2BF279D9007A2B8D /* Profile */,
+				EDD6F5FB2BF279AE007A2B8D /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EDD6F5FA2BF27817007A2B8D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6F5E62BEFB52D007A2B8D /* Quiver_Dating_appApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EDD6F5FB2BF279AE007A2B8D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6F6002BF27A73007A2B8D /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		EDD6F5FC2BF279B5007A2B8D /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6F6022BF27E96007A2B8D /* CardView.swift */,
+				EDD6F6042BF287A2007A2B8D /* UserInfoView.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		EDD6F5FD2BF279D9007A2B8D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EDD6F5FE2BF279E3007A2B8D /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Searching;
+			sourceTree = "<group>";
+		};
+		EDD6F5FF2BF27A02007A2B8D /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messaging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD6F6012BF27A73007A2B8D /* MainTabView.swift in Sources */,
 				EDD6F5E92BEFB52E007A2B8D /* ContentView.swift in Sources */,
+				EDD6F6032BF27E96007A2B8D /* CardView.swift in Sources */,
 				EDD6F5E72BEFB52D007A2B8D /* Quiver_Dating_appApp.swift in Sources */,
+				EDD6F6052BF287A2007A2B8D /* UserInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
