@@ -17,7 +17,7 @@ struct CardView: View {
             Image("image1")
                 .resizable()
             
-            //.scaledToFit() -неправильное к-во пикселей на картинке - нужны инстаграмные фотки
+            //.scaledToFit() -неправильное к-во пикселей на картинке - нужны инстаграмные фотки1
             
             UserInfoView()
             
