@@ -14,9 +14,13 @@ struct CardView: View {
     
     var body: some View {
         ZStack(alignment: .bottom){
-            Image("image1")
-                .resizable()
-            
+            ZStack(alignment: .top){
+                Image("image1")
+                    .resizable()
+                
+                SwipeActionIndicatorView(xOffset: $xOffset, screenCutOff: screenCutOff)
+            }
+          
             //.scaledToFit() -неправильное к-во пикселей на картинке - нужны инстаграмные фотки1
             
             UserInfoView()
@@ -30,20 +34,21 @@ struct CardView: View {
         .animation(.easeInOut, value: xOffset)
         .gesture(
             DragGesture()
-                .onChanged({value in
-                        xOffset = value.translation.width
-                        degrees = Double(value.translation.width / 25)
-                }).onEnded({ value in
-                    onDrugEnded(value)
-                })
+                .onChanged(onDrugChanged)
+                .onEnded(onDrugEnded)
+                
         )
     }
 }
 private extension CardView{
+    func onDrugChanged(_ value: _ChangedGesture<DragGesture>.Value){
+        xOffset = value.translation.width
+        degrees = Double(value.translation.width / 25)
+    }
     func onDrugEnded(_ value: _ChangedGesture<DragGesture>.Value){
         let width = value.translation.width
         
-        if abs(width) < 300 {
+        if abs(width) < abs(screenCutOff) {
             xOffset = 0
             degrees = 0
         }

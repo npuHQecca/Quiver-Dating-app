@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED7B3EBF2BF57D9B00D01955 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7B3EBE2BF57D9B00D01955 /* SwipeActionIndicatorView.swift */; };
 		EDD6F5E72BEFB52D007A2B8D /* Quiver_Dating_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6F5E62BEFB52D007A2B8D /* Quiver_Dating_appApp.swift */; };
 		EDD6F5E92BEFB52E007A2B8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6F5E82BEFB52E007A2B8D /* ContentView.swift */; };
 		EDD6F5EB2BEFB52F007A2B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD6F5EA2BEFB52F007A2B8D /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED7B3EBE2BF57D9B00D01955 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		EDD6F5E32BEFB52D007A2B8D /* Quiver Dating app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiver Dating app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD6F5E62BEFB52D007A2B8D /* Quiver_Dating_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiver_Dating_appApp.swift; sourceTree = "<group>"; };
 		EDD6F5E82BEFB52E007A2B8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			children = (
 				EDD6F6022BF27E96007A2B8D /* CardView.swift */,
 				EDD6F6042BF287A2007A2B8D /* UserInfoView.swift */,
+				ED7B3EBE2BF57D9B00D01955 /* SwipeActionIndicatorView.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD6F6012BF27A73007A2B8D /* MainTabView.swift in Sources */,
+				ED7B3EBF2BF57D9B00D01955 /* SwipeActionIndicatorView.swift in Sources */,
 				EDD6F5E92BEFB52E007A2B8D /* ContentView.swift in Sources */,
 				EDD6F6032BF27E96007A2B8D /* CardView.swift in Sources */,
 				EDD6F5E72BEFB52D007A2B8D /* Quiver_Dating_appApp.swift in Sources */,
