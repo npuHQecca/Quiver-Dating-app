@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED53933D2BF68A390069AF34 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED53933C2BF68A390069AF34 /* SizeConstants.swift */; };
 		ED7B3EBF2BF57D9B00D01955 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7B3EBE2BF57D9B00D01955 /* SwipeActionIndicatorView.swift */; };
 		EDD6F5E72BEFB52D007A2B8D /* Quiver_Dating_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6F5E62BEFB52D007A2B8D /* Quiver_Dating_appApp.swift */; };
 		EDD6F5E92BEFB52E007A2B8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6F5E82BEFB52E007A2B8D /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED53933C2BF68A390069AF34 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 		ED7B3EBE2BF57D9B00D01955 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		EDD6F5E32BEFB52D007A2B8D /* Quiver Dating app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiver Dating app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD6F5E62BEFB52D007A2B8D /* Quiver_Dating_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiver_Dating_appApp.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED5393392BF689E30069AF34 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				ED53933C2BF68A390069AF34 /* SizeConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		EDD6F5DA2BEFB52D007A2B8D = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 		EDD6F5F42BF277E2007A2B8D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				ED5393392BF689E30069AF34 /* Constants */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -233,6 +244,7 @@
 				ED7B3EBF2BF57D9B00D01955 /* SwipeActionIndicatorView.swift in Sources */,
 				EDD6F5E92BEFB52E007A2B8D /* ContentView.swift in Sources */,
 				EDD6F6032BF27E96007A2B8D /* CardView.swift in Sources */,
+				ED53933D2BF68A390069AF34 /* SizeConstants.swift in Sources */,
 				EDD6F5E72BEFB52D007A2B8D /* Quiver_Dating_appApp.swift in Sources */,
 				EDD6F6052BF287A2007A2B8D /* UserInfoView.swift in Sources */,
 			);

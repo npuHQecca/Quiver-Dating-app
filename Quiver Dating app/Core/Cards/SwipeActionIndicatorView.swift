@@ -9,7 +9,6 @@ import SwiftUI
 
 struct SwipeActionIndicatorView: View {
     @Binding var xOffset: CGFloat
-    let screenCutOff: CGFloat
     
     var body: some View {
         HStack {
@@ -23,7 +22,7 @@ struct SwipeActionIndicatorView: View {
                         .frame(width: 100, height: 40)
                 }
                 .rotationEffect(.degrees(-45))
-                .opacity(Double(xOffset / screenCutOff))
+                .opacity(Double(xOffset / SizeConstants.screenCutOff))
             
             Spacer()
             
@@ -37,7 +36,7 @@ struct SwipeActionIndicatorView: View {
                         .frame(width: 150, height: 40)
                 }
                 .rotationEffect(.degrees(45))
-                .opacity(Double(xOffset / screenCutOff) * -1)
+                .opacity(Double(xOffset / SizeConstants.screenCutOff) * -1)
         }
         .padding(45)
     }
@@ -45,6 +44,6 @@ struct SwipeActionIndicatorView: View {
 
 struct SwipeActionIndicatorView_Previews: PreviewProvider {
     static var previews: some View {
-        SwipeActionIndicatorView(xOffset: .constant(20), screenCutOff: -1)
+        SwipeActionIndicatorView(xOffset: .constant(20))
     }
 }
