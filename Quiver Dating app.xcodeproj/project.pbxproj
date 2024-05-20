@@ -142,8 +142,8 @@
 		EDD6F5FC2BF279B5007A2B8D /* Cards */ = {
 			isa = PBXGroup;
 			children = (
-				EDD6F6022BF27E96007A2B8D /* CardView.swift */,
 				EDD6F6042BF287A2007A2B8D /* UserInfoView.swift */,
+				EDD6F6022BF27E96007A2B8D /* CardView.swift */,
 				ED7B3EBE2BF57D9B00D01955 /* SwipeActionIndicatorView.swift */,
 			);
 			path = Cards;

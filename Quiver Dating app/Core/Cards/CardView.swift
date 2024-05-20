@@ -21,7 +21,7 @@ struct CardView: View {
                 SwipeActionIndicatorView(xOffset: $xOffset)
             }
           
-            //.scaledToFit() -неправильное к-во пикселей на картинке - нужны инстаграмные фотки1
+            //.scaledToFit() -неправильное к-во пикселей на картинке - нужны инстаграмные фотки110101208821оа
             
             UserInfoView()
             
